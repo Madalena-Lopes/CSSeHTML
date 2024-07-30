@@ -1,0 +1,69 @@
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-columns {
+    grid-template-columns: 1fr 1fr; /*1fr 1fr 1fr;*/ /*pega nas 3 fraçoes e divide igual pelas 3*/ /*100px 100px 1fr;*/ /*fr- fracção - a última coluna vai sr o restante, o q sobrar */
+}
+
+.grid-rows {
+    grid-template-rows: 50px 50px 50px; 
+}
+.grid-areas {  /*porreiro para definir facilmente as minhas áreas da página: cabeçalho, rodapé, conteudo...*/
+    grid-template-columns: 30% 60% 10%;
+    grid-template-rows: 50px 150px 50px;
+    grid-template-areas:
+        "area-1 area-2 area-2"
+        "area-3 area-4 area-5"
+        "area-3 area-6 area-6"
+}
+
+.area-1 {
+    grid-area: area-1;
+}
+
+.area-2 {
+    grid-area: area-2;
+}
+
+.area-3 {
+    grid-area: area-3;
+}
+
+.area-4 {
+    grid-area: area-4;
+}
+
+.area-5 {
+    grid-area: area-5;
+}
+.area-6 {
+    grid-area: area-6;
+}
+
+/*Flex Item*/
+.item {
+    margin: 5px;
+    background: orange;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+h1 {
+    text-align: center;
+    margin:20px 0 0 0;
+    font-size: 1.25em;
+    font-weight: normal;
+}
+
+body {
+    font-family: monospace;
+    color: #333;
+}

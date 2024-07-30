@@ -1,0 +1,45 @@
+﻿.conteudo {
+    /*width: 80%;*/
+    border: 10px solid #456;
+    /*background-image: url("C:\Users\Insys\OneDrive\Ambiente de Trabalho\HTML\microsoft.jpg");*/
+    /*background-repeat: no-repeat;*/
+    background-color: lightgray;
+    color: red; /*como em cima tem background-color, aqui já sabe q este é font-color */
+    margin: 10% 5% 15% 3%;
+    padding: 5%; /* Margem interna. Qd só ponho uma, aplica a todos os lados a mesma %. Mas tb posso ter: 1% 10% 2% 1%00 */
+    /*font-size: 10rem;*/
+}
+
+.botao {
+    margin-top: 1%;
+}
+/* selectores
+    1) classe (.) - pode usar qts vezes for necessário. Pode ser usado noutra pagina html.
+    2) id (#) - selector único. Ser usar num botão não pode ser usado em mais lado nenhum! Para um problema pontual.
+    3) p,h1
+ */
+/*
+.primeira-classe{
+    background-color: #ccc;
+    font-size: 15px;
+    font-weight: 300px;
+}
+
+#primeiro-id {
+    background-color: #234;
+    font-size: 15px;
+    font-weight: 300px;
+}
+
+p {
+    background-color: #678;
+}
+
+ */
+
+h1 {
+    background-color: #aliceblue;
+	color: blue;
+}
+
+

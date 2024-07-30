@@ -1,0 +1,74 @@
+<!DOCTYpe html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina</title>
+    <link rel="stylesheet" href="flex.css">
+</head>
+<body>
+    <h1>display: block (padrao)</h1>
+    <section class="container">
+        <div class="item">Caixa</div>
+        <div class="item">Quadrado</div>
+        <div class="item">Circulo</div>
+        <div class="item">Retangulo</div>
+        <div class="item">Retangulo</div>
+        <div class="item">Retangulo</div>
+        <div class="item">Retangulo</div>
+    </section>
+
+    <h1>display: flex (layout flexivel)</h1>
+    <section class="container flex">
+        <div class="item">Caixa</div>
+        <div class="item">Quadrado</div>
+        <div class="item">Circulo</div>
+        <div class="item">Retangulo</div>
+        <div class="item">Retangulo</div>
+        <div class="item">Retangulo</div>
+        <div class="item">Retangulo</div>
+    </section>
+
+    <h1>display: flex-wrap (respeitar embrulho/encapsulamento(wrap))</h1>
+    <section class="container flex flex-wrap">
+        <div class="item">Caixa</div>
+        <div class="item">Quadrado</div>
+        <div class="item">Circulo</div>
+        <div class="item">Retangulo</div>
+        <div class="item">Retangulo</div>
+        <div class="item">Retangulo</div>
+        <div class="item">Retangulo</div>
+    </section>
+
+    <h1>display: flex-direction: row</h1>
+    <section class="container flex flex-wrap flex-justify">
+        <div class="flex-direction">
+            <div class="item">Caixa</div>
+            <div class="item">Quadrado</div>
+            <div class="item">Circulo</div>
+            <div class="item">Retangulo</div>
+            <div class="item">Retangulo</div>
+        </div>
+        <div class="flex-direction">
+            <div class="item">Retangulo nova linha</div>
+            <div class="item">Retangulo</div>
+            <div class="item">Retangulo</div>
+        </div>
+    </section>
+
+    <h1>display: flex-justify</h1>
+    <section class="container flex flex-wrap flex-direction flex-justify">
+        <div class="item">Caixa</div>
+        <div class="item">Quadrado</div>
+        <div class="item">Circulo</div>
+    </section>
+
+    <h1>align-items: stretch</h1>
+    <section class="container flex item-align">
+        <div class="item">Carro</div>
+        <div class="item">O carro esta na oficina</div>
+        <div class="item">O carro esta na oficina e fica pronto amanha</div>
+        <div class="item">O carro esta na garagem</div>
+    </section>
+</body>
+</html>

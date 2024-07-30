@@ -1,0 +1,45 @@
+/*Flex*/
+.flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap-reverse; /*wrap, nowrap*/
+}
+
+.flex-direction {
+    flex-direction: row; /*column-reverse*/
+}
+
+.flex-justify {
+    justify-content: space-around; /*flex-end,space-between, center, space-around (depende um pouco de navegador para navegador) */
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+
+.item-align {
+    align-items: center; /*stretch (esticar), flex-end, flex-start, center*/
+}
+
+/*Flex Item*/
+.item {
+    margin: 5px;
+    background: lightgreen;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+h1 {
+    text-align: center;
+    margin:20px 0 0 0;
+    font-size: 1.25em;
+    font-weight: normal;
+}
+
+body {
+    font-family: monospace;
+    color: #333;
+}
